@@ -7,6 +7,10 @@ assets:
     type: blob.asset
     data:
       url: 'https://github.com/SCOTT-HAMILTON/balena-ntfy'
+  logo:
+    type: "blob.asset"
+    data:
+      url: "https://github.com/SCOTT-HAMILTON/balena-ntfy/assets/24496705/347dc38e-ebed-4621-afb4-aaaa1e4133b2"
 data:
   defaultDeviceType: raspberrypi3-64
   supportedDeviceTypes:
