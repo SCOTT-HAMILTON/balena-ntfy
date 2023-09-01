@@ -1,0 +1,6 @@
+FROM balenalib/%%RESIN_MACHINE_NAME%%-alpine:edge-run
+
+COPY server.yml /etc/ntfy/server.yml
+RUN apk add --no-cache -X http://dl-cdn.alpinelinux.org/alpine/edge/community ntfy
+
+CMD [ "/usr/bin/ntfy", "serve" ]

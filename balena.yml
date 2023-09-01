@@ -1,0 +1,17 @@
+name: balena-ntfy
+description: >-
+  Balena block to self-host an ntfy server.
+type: sw.block
+assets:
+  repository:
+    type: blob.asset
+    data:
+      url: 'https://github.com/SCOTT-HAMILTON/balena-ntfy'
+data:
+  defaultDeviceType: raspberrypi3-64
+  supportedDeviceTypes:
+    - raspberrypi4-64
+    - raspberrypi3
+    - raspberrypi3-64
+    - raspberrypi400-64
+version: 0.0.0
